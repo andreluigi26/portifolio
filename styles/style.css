@@ -16,11 +16,13 @@
 
 .cabecalho {
 padding: 2% 0% 0% 15%;
+
 }
 
 .cabecalho__menu{
  display: flex;
- gap: 80px;
+ gap: 32px;
+
 }
 
 .cabecalho__menu__links{
@@ -144,4 +146,21 @@ body {
     .apresentacao__conteudo {
         width: auto;
     }
+}
+
+.certificado {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    text-align: center;
+    background-color: var(--cor-terciaria);
+    border-radius: 8px;
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding: 5px;
+    color: var(--cor-secundaria);
+    font-family: 'Montserrat', sans-serif;
+      
+
 }
